@@ -31,5 +31,9 @@
 			. Cung cấp 1 cấu trúc build thống nhất, rành mạch, rõ ràng => nâng cao chất lượng dự án
 			. Tạo 1 bộ khung để developer follow (best practice)
 		*Lưu ý: Maven KHÔNG PHẢI là trang "tài liệu" cho các thư viện
-	#23: The POM file:
-	
+	#24: The POM file:
+		_ khi khởi tạo dự án Spring thì đã có sẵn file pom.xml
+		_ tiền tố .xml là cú pháp để gõ code, tương tự như html
+		_ POM được Maven sử dụng để xử lý project (compile / build&run)
+	#25:	
+		
