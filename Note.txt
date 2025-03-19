@@ -1,0 +1,35 @@
++ Chapter 03: Java Spring
+	#13: 
+		_java spring là framework, cung cấp bộ khung để tạo dự án.
+		_Chọn spring vì: an toàn, hiệu năng tốt. Được oracle chống lưng nên khó die
+		_chọn spring khi: dùng ngôn ngữ java; dùng hệ sinh thái Oracle
+		_ 1 số mặt thua thiệt: javascript code được cả FE lẫn BE; Python hỗ trợ mạnh các thư viện AI, ML, BigData
+	#14:
+		_Lý do kiên trì với java:
+			1. Có job (dù hiện tại hơi ít)
+			2. Lương sau này to
+			3. Làm web cho bản thân sau này
+	#18: spring boot:
+		_giúp đơn giản hóa quá trình xây dụng java app khi dùng spring framework
+		_giảm thiểu tối đa quá trình "cấu hình" cho dự án.
+			. Đơn giản hóa quá trình cài đặt thư viện, quản lý thông qua maven...
+			. Cung cấp sẵn server để chạy ứng dụng (embedded HTTP server) / không cần cài đặt server riêng lẻ
+	
+		=> Spring Boot "đơn giản hóa" quá trình sử dụng Spring
+	
++ Chapter 04: Maven và cấu trúc dự án Spring Boot
+	#21: Các thư mục viết code:
+		_ Src: thư mục chứa code chính
+		_ resources: chứa nguồn tài nguyên của dự án như FE(html, css,...)
+		_ test: thư mục viết code test
+		_ target: mã nguồn java sau khi được dịch (JVM sẽ chạy thư mục target)
+		_ JRE system library: các thư viện đã được cài đặt sẵn khi cài java
+		_ maven dependencies: các thư viện chung ta tự cài đặt và dùng maven để quản lý
+	#22: Spring build tool và Maven:
+		_Mục tiêu của Maven:
+			.Đơn giản hóa quá trình build dự án (build để deploy production)
+			. Cung cấp 1 cấu trúc build thống nhất, rành mạch, rõ ràng => nâng cao chất lượng dự án
+			. Tạo 1 bộ khung để developer follow (best practice)
+		*Lưu ý: Maven KHÔNG PHẢI là trang "tài liệu" cho các thư viện
+	#23: The POM file:
+	
